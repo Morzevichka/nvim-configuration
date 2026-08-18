@@ -9,8 +9,8 @@ local opts = { noremap = true, silent = true }
 keymap.set("n", "+", "<C-a>")
 keymap.set("n", "-", "<C-x>")
 
--- Remove without copy
-keymap.set("n", "x", "x")
+-- IncRename
+keymap.set("n", "<leader>cr", ":IncRename ")
 
 -- Select all
 keymap.set("n", "<C-a>", "gg<S-v>G")
