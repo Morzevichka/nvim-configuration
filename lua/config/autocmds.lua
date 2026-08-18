@@ -7,7 +7,3 @@
 -- Or remove existing autocmds by their group name (which is prefixed with `lazyvim_` for the defaults)
 -- e.g. vim.api.nvim_del_augroup_by_name("lazyvim_wrap_spell")
 --
-vim.o.tabstop = 4
-vim.o.expandtab = true
-vim.o.softtabstop = 4
-vim.o.shiftwidth = 4
